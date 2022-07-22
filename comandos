@@ -1,3 +1,5 @@
+  method utilizado para pegar o click da linha.
+  
   wg_rows     TYPE lvc_t_row.
 
   CALL METHOD o_0100_grid->get_selected_rows
