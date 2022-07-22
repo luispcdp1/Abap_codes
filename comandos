@@ -1,1 +1,5 @@
+  wg_rows     TYPE lvc_t_row.
 
+  CALL METHOD o_0100_grid->get_selected_rows
+    IMPORTING
+      et_index_rows = wg_rows.
